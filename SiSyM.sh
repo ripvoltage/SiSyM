@@ -44,7 +44,7 @@ while true; do
                 echo ""
                 echo "NETWORK: ${NET_STATUS}"
 
-                sleep 30
+                sleep 10
         done
 
 done
