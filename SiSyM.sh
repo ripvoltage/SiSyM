@@ -40,7 +40,8 @@ while true; do
                         TIMESTAMP=$(date +"%H:%M:%S")
                         echo -e "\n[${TIMESTAMP}] ALERT: NO NETWORK ACCESS TO ${HOST}!"
                 fi
-
+                
+                echo ""
                 echo "NETWORK: ${NET_STATUS}"
 
                 sleep 30
